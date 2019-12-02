@@ -7,5 +7,5 @@ var app=http.createServer(function (req, res) {
   res.end('Hello World\n');
   //outputs string with line end symbol
 }).listen(1337, "127.0.0.1");
-//sets port and IP address of the server
+//sets port and IP address of the server side
 console.log('Server running at http://127.0.0.1:1337/');
